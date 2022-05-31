@@ -1,6 +1,10 @@
 package Ex3;
 
 public class Automóvel {
+    public Automóvel(String combustível) {
+        this.combustível = combustível;
+    }
+
     public String getCombustível() {
         return combustível;
     }

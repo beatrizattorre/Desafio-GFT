@@ -1,7 +1,7 @@
 package Ex4;
 
-public class Código{
-    private int código;
+public final class Código extends Telefone{
+    public int código;
 
     public int getCódigo() {
         return código;
@@ -9,5 +9,9 @@ public class Código{
 
     public void setCódigo(int código) {
         this.código = código;
+    }
+
+    public Código(int código, long telefone) {
+        super(telefone);
     }
 }

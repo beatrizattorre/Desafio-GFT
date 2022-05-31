@@ -32,7 +32,6 @@ public class TelefoneEncriptado {
         List<String> saída = new ArrayList<>();
             for (count = 0; count < c; count++) {
                 letra = scan.next();
-                letra.toUpperCase();
                 if (letra.equals("A") || letra.equals("B") || letra.equals("C")) {
                     saída.add(count, "2");
                 }

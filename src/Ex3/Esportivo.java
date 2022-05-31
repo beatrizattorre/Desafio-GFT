@@ -1,8 +1,14 @@
 package Ex3;
 
-public class Esportivo extends Automóvel{
+import org.w3c.dom.ls.LSOutput;
+
+public class Esportivo extends Automóvel {
     private String combustível;
-    private String gasolina;
+
+    public Esportivo(String combustível, String gasolina) {
+        this.combustível = combustível;
+        this.gasolina = gasolina;
+    }
 
     @Override
     public String getCombustível() {
@@ -12,11 +18,15 @@ public class Esportivo extends Automóvel{
     @Override
     public void setCombustível(String combustível) {
         this.combustível = combustível;
-        System.out.println("Gasolina");
     }
 
-    public static void main(String[] args) {
-        Esportivo esportivo = new Esportivo();
-        esportivo.setCombustível("Gasolina");
+    public String getGasolina() {
+        return gasolina;
     }
+
+    public void setGasolina(String gasolina) {
+        this.gasolina = gasolina;
+    }
+
+    private String gasolina;
 }
