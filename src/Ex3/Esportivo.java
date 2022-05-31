@@ -6,12 +6,17 @@ public class Esportivo extends Automóvel{
 
     @Override
     public String getCombustível() {
-        return gasolina;
+        return combustível;
     }
 
     @Override
     public void setCombustível(String combustível) {
-        this.combustível = gasolina;
+        this.combustível = combustível;
         System.out.println("Gasolina");
+    }
+
+    public static void main(String[] args) {
+        Esportivo esportivo = new Esportivo();
+        esportivo.setCombustível("Gasolina");
     }
 }
