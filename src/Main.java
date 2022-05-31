@@ -1,5 +1,9 @@
+import Ex3.Automóvel;
+import Ex3.Esportivo;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Esportivo esportivo = new Esportivo();
+        esportivo.getCombustível();
     }
 }
