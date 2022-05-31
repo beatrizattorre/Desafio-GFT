@@ -1,13 +1,13 @@
 package Ex4;
 
 public class Idade {
-    private int idade;
+    private String idade;
 
-    public int getIdade() {
+    public String getIdade() {
         return idade;
     }
 
-    public void setIdade(int idade) {
+    public void setIdade(String idade) {
         this.idade = idade;
     }
 }

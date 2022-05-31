@@ -1,17 +1,13 @@
 package Ex4;
 
-public class Telefone {
-    private long telefone;
+public class Telefone extends Idade {
+ public String telefone;
 
-    public Telefone(long telefone) {
-        this.telefone = telefone;
-    }
-
-    public long getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(long telefone) {
+    public void setTelefone(String telefone, int Idade) {
         this.telefone = telefone;
     }
 }

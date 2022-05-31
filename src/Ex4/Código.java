@@ -1,17 +1,13 @@
 package Ex4;
 
 public final class Código extends Telefone{
-    public int código;
+    public String código;
 
-    public int getCódigo() {
+    public String getCódigo() {
         return código;
     }
 
-    public void setCódigo(int código) {
+    public void setCódigo(String código) {
         this.código = código;
-    }
-
-    public Código(int código, long telefone) {
-        super(telefone);
     }
 }
