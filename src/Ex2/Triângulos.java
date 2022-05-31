@@ -22,11 +22,10 @@ public class Triângulos {
             if(lado1 != lado2 && lado2 != lado3 && lado1 != lado3) {
                 System.out.println("Escaleno");
             }
-            //if()
+            if((lado1 == lado2 && lado2 != 3) || (lado2 == lado3 && lado3 != lado1) || (lado1 == lado3 && lado1 != lado2)){
+                System.out.println("Isóceles");
+            }
             break;
         }
-        //FALTA ISOCELES
-
-
     }
 }
